@@ -39,6 +39,7 @@
             <option value="1smr">1ºSMR</option>
             <option value="2smr">2ºSMR</option>
         </select>
+        <div id="clases"></div>
         <div id="error-curso"></div>
 
         <br />
@@ -65,12 +66,12 @@
 
             <div>
                 <label for="si">SI</label>
-                <input type="checkbox" id="si" name="repites" value="si" checked />
+                <input type="checkbox" id="si" name="repites" value="si" />
             </div>
 
             <div>
                 <label for="no">NO</label>
-                <input type="checkbox" id="no" name="repites" value="no" />
+                <input type="checkbox" id="no" name="repites" value="no" checked />
 
             </div>
         </fieldset>
@@ -94,20 +95,23 @@
         <br />
 
         <button id="btn-grabar" type="submit">GRABAR</button>
-        <button id="btn-limpiar">LIMPIAR</button>
-        <button id="btn-alumnos">ALUMNOS MATRICULADOS</button>
-        <button id="btn-1smr">ALUMNOS 1ºSMR</button>
-        <button id="btn-mayor">ALUMNO MAYOR</button>
+        <button id="btn-limpiar" type="button">LIMPIAR</button>
+        <button id="btn-alumnos" type="button">ALUMNOS MATRICULADOS</button>
+        <button id="btn-1smr" type="button">ALUMNOS 1ºSMR</button>
+        <button id="btn-mayor" type="button">ALUMNO MAYOR</button>
+
 
         <br />
         <br />
 
-       
+
 
 
     </form>
 </body>
 
-<script src="Validaciones.js"></script>
+<script type="module" src="Validaciones.js"></script>
+<script type="module" src="Main.js"></script>
+
 
 </html>
